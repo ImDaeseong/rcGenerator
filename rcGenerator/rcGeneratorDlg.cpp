@@ -67,20 +67,20 @@ void CrcGeneratorDlg::OnBnClickedButton1()
 {
 	if(createBin())
 	{
-		AfxMessageBox("성공");
+		AfxMessageBox("Success");
 	}
 	else 
 	{
-		AfxMessageBox("실패");
+		AfxMessageBox("failed");
 	}
 
 	if(createBin("D:\\bg.png"))
 	{
-		AfxMessageBox("성공");
+		AfxMessageBox("Success");
 	}
 	else 
 	{
-		AfxMessageBox("실패");
+		AfxMessageBox("failed");
 	}
 }
 
